@@ -1,0 +1,21 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#rgbcor {
+    border: 1px solid;
+    height: 140px;
+    background-color: hsla(0, 0%, 0%, 0.956);
+}
+#rgbtexto {
+    text-align: center;
+}
+label {
+    width: 70px;
+    display: inline-block;
+}
+.sistema_de_Cores_hexadecimal {
+    font-size: 25px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://github.com/oclubedosdez.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Misturador De Cores</title>
+</head>
+<body>
+    <h1>Misturador de Cores RGB</h1>
+
+    <div id="rgbcor"></div>
+
+    <div id="rgbtexto">rgb(0,0,0,0.0)</div>
+    <div class="sistema_de_Cores_hexadecimal">
+        <span>Hexadecimal: </span><span id="hexatexto">#0000</span>
+    </div>
+
+    <div>
+        <label for="slideRed">RED</label>
+        <input oninput="exibirCor()" type="range" name="slideRed" id="slideRed" value="0" min="0" max="255">
+        <output id="valorRed">0</output>
+    </div>
+
+    <div>
+        <label for="slideGreen">GREEN</label>
+        <input oninput="exibirCor()" type="range" name="slideGreen" id="slideGreen" value="0" min="0" max="255">
+        <output id="valorGreen">0</output>
+    </div>
+
+    <div>
+        <label for="slideBlue">BLUE</label>
+        <input oninput="exibirCor()" type="range" name="slideBlue" id="slideBlue" value="0" min="0" max="255">
+        <output id="valorBlue">0</output>
+    </div>
+
+    <div>
+        <label for="slideTranspa">TRANSPA</label>
+        <input oninput="exibirCor()" type="range" name="slideTranspa" id="slideTranspa" value="99" max="99" min="10">
+        <output id="valorTranspa">0.99</output>
+    </div>
+
+
+
+   
+
+</body>
+<script src="scritp.js"></script>
+</html>
