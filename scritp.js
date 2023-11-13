@@ -8,7 +8,6 @@ function exibirCor() {
     b = Number(document.getElementById("slideBlue").value);
     t = Number(document.getElementById("slideTranspa").value);
 
-    var transpa = `0.${t}`
 
 
 
